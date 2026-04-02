@@ -148,7 +148,7 @@ python recent_files_tracker.py ~/Documents --no-size
 # Export to CSV
 python recent_files_tracker.py ~/Documents --export recent_files.csv
 ```
-##🛡️ Safety Features
+## 🛡️ Safety Features
 All scripts include a --dry-run mode that shows what will happen without making any changes. Always run with --dry-run first!
 
 # Preview first
@@ -156,7 +156,7 @@ python file_organizer.py ~/Downloads --dry-run
 # Then execute
 python file_organizer.py ~/Downloads
 
-##💻 System Compatibility
+## 💻 System Compatibility
 Script	Windows	macOS	Linux
 File Organizer	✅	✅	✅
 System Cleaner	✅	✅	✅
@@ -166,8 +166,8 @@ Folder Analyzer	✅	✅	✅
 Extension Changer	✅	✅	✅
 Recent Files Tracker	✅	✅	✅
 
-📄 License
+## 📄 License
 MIT License — free to use, modify, and share.
 
-👤 Author
+## 👤 Author
 Built by Prasad
