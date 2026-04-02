@@ -30,7 +30,7 @@ cd automation-scripts
 # No external dependencies — uses only Python standard library
 ```
 ## 📁 Script Details
-
+```
 1. File Organizer (file_organizer.py)
 Automatically sorts files into folders based on extension.
 
@@ -48,7 +48,8 @@ Fonts → .ttf, .otf
 python file_organizer.py ~/Downloads --dry-run
 # Actually organize files
 python file_organizer.py ~/Downloads
-
+```
+```
 2. System Cleaner (system_cleaner.py)
 Deletes temporary files, cache, and trash across Windows, macOS, and Linux.
 
@@ -62,7 +63,7 @@ Trash/Recycle Bin
 python system_cleaner.py --dry-run
 # Actually clean the system
 python system_cleaner.py --execute
-
+```
 3. Bulk Renamer (bulk_renamer.py)
 Rename multiple files with patterns.
 
