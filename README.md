@@ -30,7 +30,7 @@ cd automation-scripts
 # No external dependencies — uses only Python standard library
 ```
 ## 📁 Script Details
-1. File Organizer (file_organizer.py)
+##1. File Organizer (file_organizer.py)
 Automatically sorts files into folders based on extension.
 
 File type categories:
