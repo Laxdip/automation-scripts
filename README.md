@@ -24,7 +24,7 @@ A collection of powerful Python automation scripts to organize files, clean your
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/automation-scripts.git
+git clone https://github.com/laxdip/automation-scripts.git
 cd automation-scripts
 
 # No external dependencies — uses only Python standard library
