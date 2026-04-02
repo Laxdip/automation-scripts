@@ -28,8 +28,8 @@ git clone https://github.com/yourusername/automation-scripts.git
 cd automation-scripts
 
 # No external dependencies — uses only Python standard library
-
-📁 Script Details
+```
+## 📁 Script Details
 1. File Organizer (file_organizer.py)
 Automatically sorts files into folders based on extension.
 
