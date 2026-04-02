@@ -64,6 +64,7 @@ python system_cleaner.py --dry-run
 # Actually clean the system
 python system_cleaner.py --execute
 ```
+```
 3. Bulk Renamer (bulk_renamer.py)
 Rename multiple files with patterns.
 
@@ -78,7 +79,8 @@ python bulk_renamer.py ~/Photos --prefix "vacation_" --numbering --dry-run
 python bulk_renamer.py ~/Documents --replace "old" "new"
 # Add suffix
 python bulk_renamer.py ~/Files --suffix "_backup"
-
+```
+```
 4. Duplicate Finder (duplicate_finder.py)
 Finds duplicate files by calculating MD5 hash of each file.
 
@@ -87,7 +89,8 @@ python duplicate_finder.py ~/Documents --dry-run
 # Delete duplicates (keeps one copy)
 # Remove --dry-run to actually delete
 python duplicate_finder.py ~/Documents
-
+```
+```
 5. Folder Analyzer (folder_analyzer.py)
 Shows which folders take the most space with visual progress bars.
 
@@ -108,7 +111,8 @@ Total size: 45.2 GB
  2. Software
     ██████████░░░░░░░░░░░░░░░░░░░░░░░░ 5.2 GB (11.5%)
     📍 /home/user/Downloads/Software
-
+```
+```
 6. Extension Changer (extension_changer.py)
 Bulk change file extensions and track recent files.
 
@@ -128,7 +132,8 @@ python extension_changer.py recent ~/Downloads --days 3 --limit 20
 python extension_changer.py recent ~/Documents --sort size
 # Export to CSV
 python extension_changer.py recent ~/Documents --export report.csv
-
+```
+```
 7. Recent Files Tracker (recent_files_tracker.py)
 Lists files modified in the last X days with detailed information.
 
