@@ -3,7 +3,7 @@
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)
 ![Dependencies](https://img.shields.io/badge/Dependencies-None-brightgreen)
 
-# 🗂️ File Automation Scripts
+# File Automation Scripts
 
 A collection of powerful Python automation scripts to organize files, clean your system, rename in bulk, find duplicates, analyze storage, track recent files, watch for changes, backup data, and search your file system.
 
