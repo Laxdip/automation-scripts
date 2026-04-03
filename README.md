@@ -7,12 +7,12 @@
 
 A collection of powerful Python automation scripts to organize files, clean your system, rename in bulk, find duplicates, analyze storage, track recent files, watch for changes, backup data, and search your file system.
 
-> ⚡ **Zero dependencies** — uses only the Python standard library.  
-> 🛡️ **Safe by default** — all destructive scripts preview changes first. Use `--execute` to apply.
+>  **Zero dependencies** — uses only the Python standard library.  
+>  **Safe by default** — all destructive scripts preview changes first. Use `--execute` to apply.
 
 ---
 
-## 🚀 Scripts Overview
+##  Scripts Overview
 
 | Script | What it does |
 |--------|--------------|
@@ -23,13 +23,13 @@ A collection of powerful Python automation scripts to organize files, clean your
 | **folder_analyzer.py** | Show which folders/files consume the most space |
 | **extension_changer.py** | Bulk-change file extensions |
 | **recent_files_tracker.py** | List files modified in the last N days |
-| **file_watcher.py** ⭐ | Monitor a folder for real-time changes |
-| **file_backup.py** ⭐ | Incremental/versioned backup with restore support |
-| **file_search.py** ⭐ | Search files by name, content, size, or date |
+| **file_watcher.py** | Monitor a folder for real-time changes |
+| **file_backup.py**  | Incremental/versioned backup with restore support |
+| **file_search.py**  | Search files by name, content, size, or date |
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ```bash
 # Clone the repository
@@ -41,7 +41,7 @@ cd automation-scripts
 
 ---
 
-## 🛡️ Safety First
+##  Safety First
 
 **All destructive scripts default to dry-run (preview) mode.**  
 Nothing is moved, renamed, or deleted until you add `--execute`.
@@ -56,7 +56,7 @@ python bulk_renamer.py ~/Photos --prefix "vacation_" --execute
 
 ---
 
-## 📁 Script Details
+##  Script Details
 
 ### 1. File Organizer (`file_organizer.py`)
 Automatically sorts files into subfolders based on extension or modification date.
@@ -186,16 +186,16 @@ python folder_analyzer.py ~/Downloads --min-size 50
 
 **Example output:**
 ```
-📦 Total tracked size : 45.2 GB
+ Total tracked size : 45.2 GB
 ════════════════════════════════════════
 
-🔝 Top 3 largest items:
+ Top 3 largest items:
 
-   1. 📁 Videos
+   1.  Videos
       ████████████████░░░░░░░░  8.5 GB  (18.8%)
       /home/user/Downloads/Videos
 
-   2. 📁 Software
+   2.  Software
       ██████████░░░░░░░░░░░░░░  5.2 GB  (11.5%)
       /home/user/Downloads/Software
 ```
@@ -240,7 +240,7 @@ python recent_files_tracker.py ~/Documents --show-created
 
 ---
 
-### 8. File Watcher (`file_watcher.py`) ⭐ New
+### 8. File Watcher (`file_watcher.py`)
 Monitor a directory in real-time for file creates, modifications, and deletions. Pure stdlib — no `watchdog` needed.
 
 ```bash
@@ -259,7 +259,7 @@ python file_watcher.py ~/Projects --no-recursive --max-events 100
 
 ---
 
-### 9. File Backup (`file_backup.py`) ⭐ New
+### 9. File Backup (`file_backup.py`)
 Incremental, versioned backup with MD5-based change detection. Supports zip compression and full restore.
 
 ```bash
@@ -281,7 +281,7 @@ python file_backup.py restore ~/Backup/20240401_120000 ~/Restored --execute
 
 ---
 
-### 10. File Search (`file_search.py`) ⭐ New
+### 10. File Search (`file_search.py`)
 Search files by name pattern, content text, size range, or modification date. Supports glob and regex.
 
 ```bash
@@ -306,29 +306,18 @@ python file_search.py ~/Logs --name "log_\d{4}" --regex --export results.csv
 
 ---
 
-## 💻 Compatibility
+##  Compatibility
 
 | Script | Windows | macOS | Linux |
-|--------|:-------:|:-----:|:-----:|
-| file_organizer.py | ✅ | ✅ | ✅ |
-| system_cleaner.py | ✅ | ✅ | ✅ |
-| bulk_renamer.py | ✅ | ✅ | ✅ |
-| duplicate_finder.py | ✅ | ✅ | ✅ |
-| folder_analyzer.py | ✅ | ✅ | ✅ |
-| extension_changer.py | ✅ | ✅ | ✅ |
-| recent_files_tracker.py | ✅ | ✅ | ✅ |
-| file_watcher.py | ✅ | ✅ | ✅ |
-| file_backup.py | ✅ | ✅ | ✅ |
-| file_search.py | ✅ | ✅ | ✅ |
 
 ---
 
-## 📄 License
+## License
 
 MIT License — free to use, modify, and share.
 
 ---
 
-## 👤 Author
+## Author
 
 Prasad
