@@ -308,7 +308,7 @@ python file_search.py ~/Logs --name "log_\d{4}" --regex --export results.csv
 
 ##  Compatibility
 
-| Script | Windows | macOS | Linux |
+| Windows | macOS | Linux |
 
 ---
 
