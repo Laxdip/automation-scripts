@@ -9,7 +9,7 @@ python3 tree_to_zip.py
 ---
 
 ## Example
-
+```
 Input:
 project/
 ├── src/
@@ -19,7 +19,7 @@ project/
 END
 
 Output: output.zip with all folders + empty files.
-
+```
 ---
 
 ## Why
