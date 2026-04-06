@@ -1,4 +1,4 @@
-# 🌳 Tree to ZIP
+# Tree to ZIP
 
 **Paste a folder tree → Get a ZIP file. That's it.**
 
