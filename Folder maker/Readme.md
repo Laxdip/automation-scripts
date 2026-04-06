@@ -3,10 +3,10 @@
 **Paste a folder tree → Get a ZIP file. That's it.**
 
 ## Quick Start
+```
 python3 tree_to_zip.py
+```
 # Paste your tree, type END, done.
-
----
 
 ## Example
 ```
