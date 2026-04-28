@@ -41,6 +41,16 @@ python any_script.py -h
 ```
 > Remember: --dry-run to preview, --execute to apply
 
+## Troubleshooting
+Unicode/Emoji Display Issues on Windows Command Prompt
+**If you see Unicode/emoji errors**, use PowerShell instead:
+
+```powershell
+powershell
+python script_name.py
+```
+> Or switch CMD to `UTF-8: chcp 65001`
+
 ## License
 MIT
 ## 
