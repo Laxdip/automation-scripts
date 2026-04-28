@@ -14,6 +14,9 @@ python script_name.py /path --dry-run
 
 # Apply the changes
 python script_name.py /path --execute
+
+# Show help
+python script_name.py -h
 ```
 ## Usage Pattern
 Every script follows this pattern:
@@ -32,6 +35,9 @@ python any_script.py ~/Downloads --dry-run
 
 # Then apply when ready
 python any_script.py ~/Downloads --execute
+
+# See all options
+python any_script.py -h
 ```
 > Remember: --dry-run to preview, --execute to apply
 
