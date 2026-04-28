@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Empty Folder Finder - Find and optionally delete empty and near-empty folders.
 CORRECTED VERSION - Properly detects folders with files in subdirectories
@@ -235,3 +234,5 @@ def main():
         print("  To actually delete, run with: --execute")
         print("    WILL DELETE ENTIRE FOLDER TREE if truly empty")
 
+if __name__ == "__main__":
+    main()
