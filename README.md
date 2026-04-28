@@ -19,7 +19,7 @@ python script_name.py /path --execute
 python script_name.py -h
 ```
 ## Usage Pattern
-Every script follows this pattern:
+#### Every script follows this pattern:
 
 1.Preview mode (default or --dry-run) - See what would happen
 
