@@ -12,13 +12,23 @@ python3 tree_to_zip.py
 ```
 Input:
 project/
-├── src/
-│   └── main.py
-├── README.md
-└── config.yaml
+├── frontend/
+│   ├── index.html
+│   ├── styles.css
+│   ├── script.js
+│   └── app.js
+├── backend/
+│   ├── server.py
+│   ├── database.py
+│   └── api.java
+└── scripts/
+    ├── helper.py
+    ├── utils.java
+    └── config.js
+
 END
 
-Output: output.zip with all folders + empty files.
+> Output: output.zip with all folders + empty files.
 ```
 ---
 
