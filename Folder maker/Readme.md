@@ -30,6 +30,7 @@ END
 ```
 > Output: output.zip with all folders + empty files.
 ```
+```
 ---
 
 ## Why
