@@ -3,7 +3,7 @@ Extension Usage Statistics - Analyze file extension distribution in a directory.
 Part of the automation-scripts collection.
 """
 
-
+import os
 import sys
 import argparse
 from pathlib import Path
